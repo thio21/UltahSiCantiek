@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu Ucapan Ulang Tahun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio class="audio" src="resources/lagu.mp3" autoplay type="audio" loop></audio>
+  <div class="card">
+    <h1>Happy Birthday Cantiekku!</h1>
+    <img src="resources/nopiek.png"></img>
+    <p>Semoga dengan adanya aku ngasih surprise ini, kamu bisa makin semangat jalanin hidup, makin terbuka atas kehidupan ini, terus bisa termotivasi urusan kuliah & mondoknya. Satu lagii, semoga kamu bisa tambah bahagia yah... Khususnya sama Aku xixixi. Byy, aku bangga banget punya kamu, dan sebagai wujud kebanggan aku punya kamu, semoga aku bisa jadi teman hidupmu, teman ceritamu, teman berbagimu, dan menjadi rumahmu alias suamimu. Aselabar yah buat kedepannya, semoga Allah memberikan yang terbaik buat kamu. Aamiin.</p>
+    <p> Oh iya, aku ada surprise nih buat kamu</p>
+    <button onclick="showMessage()">Buka</button>
+    <p class="extra-text">Gak, cuman satu lohhh, ada lagi nih</p> <!-- Menambahkan kelas untuk teks tambahan -->
+    <button onclick="myFunction()">Kejutan Terbaik</button>
+  </div>
+
+  <!-- Box untuk menampilkan pesan -->
+  <div id="messageBox" class="message-box" style="display: none;">
+    <div class="message-content">
+      <p>Ayok cantiekku, kita makan yamie panda, byby kayaknya pengen banget tadi. xixixi</p>
+      <button onclick="closeMessage()">GAS BYY</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
